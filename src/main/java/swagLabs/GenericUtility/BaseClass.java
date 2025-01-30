@@ -63,7 +63,7 @@ public class BaseClass {
 //		}
 		
 		
-		driver = new EdgeDriver();
+		driver = new FirefoxDriver();
 		sUtil.maximizeWindow(driver);
 		sUtil.addimplicitlyWait(driver);
 		
